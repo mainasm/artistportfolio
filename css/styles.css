@@ -264,13 +264,69 @@ header {
 }
 
 .skills {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  position: relative;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
   margin-bottom: 3.5em;
 }
 
-.skill {
-  max-width: 500px;
-  margin: 0 auto;
+.skill:nth-child(1)  {
+  background-color: #dda109; 
+  animation-name: slideInLeft;
+  animation-delay: 0.5s;
 }
+
+.skill:nth-child(2)  {
+  background-color: #e81132; 
+  animation-name: slideInRight;
+  animation-delay: 1.5s;
+}
+
+.skill:nth-child(3)  {
+  background-color: #500880; 
+  animation-name: slideInUp;
+  animation-delay: 2.5s;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 @media(min-width: 1000px){
   .skills {
