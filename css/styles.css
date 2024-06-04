@@ -241,7 +241,7 @@ header {
 
 .myskills {
   background-color: var(--clr-acc);
-  background-image: url(../images/back.jpg);
+  background-image: url(../images/img2.jpg);
   background-size: cover;/*doesn't repeat*/
   color: var(--clr-light);
   background-blend-mode: multiply;
@@ -322,7 +322,7 @@ header {
     background-color: var(--clr-acc);
     color: var(--clr-light);
     text-align: center;
-    background-image: url(../images/back.jpg);
+    background-image: url(../images/img7.jpg);
     background-blend-mode: multiply;   
   }
 
