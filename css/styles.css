@@ -342,6 +342,31 @@ header {
     opacity: 0.7;
   }
 
+  .adoption, .care, .bio {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.story {
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+}
+
+.story img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 /*styling the footer*/
 
 .footer {
