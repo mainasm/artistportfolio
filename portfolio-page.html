@@ -1,24 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam's Art Portfolio</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Quicksand', sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50; /* Dark blue */
+            color: #ecf0f1; /* Light grey */
+            padding: 10px 20px;
+        }
+
+        .nav-btn {
+            background: none;
+            border: none;
+            color: #ecf0f1;
+            font-size: 1.2rem;
+        }
+
+        .mynav_ls {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .mynav_link {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        .mynav_link:hover {
+            text-decoration: underline;
+        }
+
+        .portfolio_detail {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            background-color: #34495e; /* Greyish blue */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .social_links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .socialitem {
+            margin: 0 10px;
+        }
+
+        .socialitemlink {
+            color: white;
+            text-decoration: none;
+        }
+
+        .socialitemlink:hover {
+            color: #3498db; /* Light blue */
+        }
+
+        @media (max-width: 600px) {
+            .mynav_ls {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div class="mylogo">
-            <img src="images/4.png" width="200" height="150" alt="sam's logo">
+            <img src="images/4.png" width="200" height="150" alt="Sam's Logo">
         </div>
 
-        <button class="nav-btn" aria-label="nav-button">
-            <span class="btn"></span>
+        <button class="nav-btn" aria-label="Toggle navigation">
+            <span class="btn">☰</span>
         </button>
 
         <nav class="mynav">
@@ -39,28 +118,19 @@
 
         <p class="secsubtitle secsubtitle_intro"><strong>The Rosy Path</strong></p>
 
-        <img src="images/img1.jpg" alt="first project" class="first_img">
+        <img src="images/img1.jpg" alt="First project" class="first_img">
     </section>
 
     <div class="portfolio_detail">
-        <p>This was my first painting. I began working on it in January 2016 and finished it in
-            in march of the same year;
-        </p>
-        <img src="images/img1.jpg" alt="first project">
-        <p>It was inspired by one of my visits to the scenic fields of
-            Kiambu Country, on the northern side of the Aberdare slopes.
-        </p>
-        <p>On one sunny
-            morning, the fields were very clear, with flowers spanning miles unending.
-            The scenery was beckoning; urging me to pick up my brush and recreate it.
-        </p>
-        <a href="index.html#projects" style="margin: 0 auto;">Back to Projects</a>
+        <p>This was my first painting. I began working on it in January 2016 and finished it in March of the same year.</p>
+        <img src="images/img1.jpg" alt="First project">
+        <p>It was inspired by one of my visits to the scenic fields of Kiambu County, on the northern side of the Aberdare slopes.</p>
+        <p>On one sunny morning, the fields were very clear, with flowers spanning miles unending. The scenery was beckoning; urging me to pick up my brush and recreate it.</p>
+        <a href="index.html#projects" style="margin: 0 auto; display: inline-block; color: #2c3e50;">Back to Projects</a>
     </div>
 
-
-    <!--page footer-->
+    <!--Page footer-->
     <footer class="footer">
-        <!--insert your own here-->
         <a href="mailto:fort.smg@gmail.com" class="footer_link">fort.smg@gmail.com</a>
 
         <ul class="social_links">
@@ -71,7 +141,7 @@
                 <a class="socialitemlink" href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
             </li>
             <li class="socialitem">
-                <a class="socialitemlink:" href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
+                <a class="socialitemlink" href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
             </li>
         </ul>
         <button><a href="#home" class="button">Back to top</a></button>
