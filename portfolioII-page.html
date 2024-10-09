@@ -9,6 +9,26 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Additional CSS to move the button to the side */
+        .side-button {
+            position: fixed;
+            right: 20px;   /* distance from the right side */
+            bottom: 20px;  /* distance from the bottom */
+            background-color: #4CAF50; /* green background */
+            color: none;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .side-button a {
+            text-decoration: none;
+            color: blueviolet;
+        }
+    </style>
 </head>
 
 <body>
@@ -74,7 +94,7 @@
                 <a class="socialitemlink:" href="https://instagram.com"><i class="fab fa-instagram-square"></i></a>
             </li>
         </ul>
-        <button><a href="#home" class="button">Back to top</a></button>
+         <button class="side-button"><a href="#home" class="button">Back to top</a></button>
     </footer>
     <script src="js/index.js"></script>
 </body>
