@@ -341,6 +341,10 @@ header {
     transform: scale(1.02);
     opacity: 0.7;
   }
+  .watoto_img {
+    height: 600px;
+    width: 1200px;
+  }
 
 /*styling the footer*/
 
@@ -395,4 +399,58 @@ header {
 
 .portfolio_detail p {
   max-width: 700px;
+}
+
+
+#education h2 {
+  color: black;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Garamond', serif;
+  text-shadow: 2px 2px #d3d3d3;
+}
+
+#education p {
+  color: palevioletred;
+  text-align: center;
+  font-style: italic;
+}
+
+.education-item h3 {
+  color: black;
+  font-size: 1.8em;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.education-item ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+.education-item ul li {
+  color: black;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding: 5px 0;
+}
+
+.education-item p {
+  font-size: 1.1em;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.education-item h3:hover {
+  color: #62004e;
+  border-bottom: 2px solid #32cd32;
+}
+
+.education-item ul li:hover {
+  color: #62004e;
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
 }
