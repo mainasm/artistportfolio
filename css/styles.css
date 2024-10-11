@@ -12,7 +12,7 @@
 
   --clr-light:white;
   --clr-dark: #1b1515;
-  --clr-acc: #f844bc;
+  --clr-acc: #4456f8;
   --clr-dull: gray;
 
     --fs-h1: 4rem;
@@ -103,7 +103,7 @@ h3{font-size: var(--fs-h3);}
 
 .secsubtitle_intro,
 .secsubtitle_bio {
-  background: rgb(116, 11, 75);
+  background: rgb(11, 113, 116);
   font-family: var(--ff-secondary);
   color: var(--clr-light);
 }
@@ -120,7 +120,7 @@ header {
 /*Navigation Styling*/
 .mynav{
     position: fixed;
-    background: rgb(87, 5, 50);
+    background: rgb(5, 87, 16);
     color: var(--clr-light);
     top: 0;
     bottom: 0;
