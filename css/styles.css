@@ -206,6 +206,17 @@ header {
 .btn::before { top: 6px; }
 .btn::after { bottom: 6px;}
 
+/* CSS for Light and Dark Theme */
+body.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+body.dark-theme {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+
 /*Intro section*/
 
 .topintro {

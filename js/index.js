@@ -10,3 +10,7 @@ navlinks.forEach(link => {
         document.body.classList.remove('open-nav');
     });
 });
+
+function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
+}
